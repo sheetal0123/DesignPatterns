@@ -1,4 +1,4 @@
-package strategypattern;
+package strategypattern_1;
 
 /**
  * Robot Duck can fly with rocket power

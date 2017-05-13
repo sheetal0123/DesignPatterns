@@ -1,4 +1,4 @@
-package strategypattern;
+package strategypattern_1;
 
 public class TestDuck {
 	

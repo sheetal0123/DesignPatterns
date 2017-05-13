@@ -1,4 +1,4 @@
-package observerpattern;
+package observerpattern_2;
 
 /**
  * Class which collect data i.e. source class need to implement this interface

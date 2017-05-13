@@ -1,4 +1,4 @@
-package observerpattern;
+package observerpattern_2;
 
 public class TestWeatherStation {
 

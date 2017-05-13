@@ -1,4 +1,4 @@
-package strategypattern;
+package strategypattern_1;
 
 /**
  * Class which define how Duck actually fly

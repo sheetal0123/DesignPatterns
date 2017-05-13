@@ -1,4 +1,4 @@
-package observerpattern;
+package observerpattern_2;
 
 /**
  * All client observer need to implement this interface to get update from Subject source
