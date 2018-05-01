@@ -1,0 +1,6 @@
+|List of Pets on Sale	||
+|Total Pets 			| $petList.size()	|
+|Pets Name  			| Pet Costs 		|
+#foreach( $pet in $petList )
+|$pet.getName() 			| $pet.price 	|
+#end
