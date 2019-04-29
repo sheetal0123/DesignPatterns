@@ -1,0 +1,26 @@
+##-----------------------Header Comment----------------------------------
+##
+$data.domain_var1$data.domain_var2$data.domain_var3$data.domain_var4
+##
+##-------------------For Loop Transactions---------------------------
+##
+#foreach( $txnData in $data.BaseClassListObject1 )
+$txnData.domain_var1$txnData.domain_var2$txnData.domain_var3
+$txnData.domain_var1$txnData.domain_var2$txnData.domain_var3
+$txnData.domain_var1$txnData.domain_var2$txnData.domain_var3
+#end
+##
+##-------------------For loop If Else Transactions---------------------------
+##
+#foreach( $txnData in $data.listVISADCCData )
+$txnData.domain_var1$txnData.domain_var2$txnData.domain_var3
+$txnData.domain_var1$txnData.domain_var2$txnData.domain_var3
+#set( $isBool = $txnData.domain_var5 )
+#if( $isBool )
+$txnData.domain_var1$txnData.domain_var2$txnData.domain_var3
+#end
+#end
+## note: if and for loop both need to close with #end tag
+##------------------------Footer Comment---------------------------------
+##
+$data.domain_var1$data.domain_var2$data.domain_var3$data.domain_var4

@@ -1,4 +1,4 @@
-package velocitymanager;
+package velocitymanager.example1;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,7 +15,7 @@ public class PetDataClass {
 	public List<PetDomain> getData() throws IOException{
 		PetDomain obj;
 		List<PetDomain> ls = new ArrayList<>();
-		BufferedReader br = new BufferedReader(new FileReader(new File(System.getProperty("user.dir")+ "\\src\\test\\java\\velocitymanager\\petdata.txt")));
+		BufferedReader br = new BufferedReader(new FileReader(new File(System.getProperty("user.dir")+ "\\src\\test\\java\\velocitymanager\\example1\\petdata.txt")));
 		
 		String str;
 		while((str= br.readLine())!=null) {

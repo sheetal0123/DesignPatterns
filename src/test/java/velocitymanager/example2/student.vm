@@ -1,0 +1,39 @@
+##--------------------------File Header-----------------------------
+$data.fileHeader.totalDepartmentCount$data.fileHeader.currentDate
+##
+##
+##
+##
+##--------------------Maths Header----------------------------------
+$data.mathsDepartmentHeader.deptName$data.mathsDepartmentHeader.deptHOD$data.mathsDepartmentHeader.deptFacultyCount$data.mathsDepartmentHeader.deptStartedYear
+##
+##--------------------List of all Maths Student---------------------
+#foreach( $maths in $data.lsOfMathsStudent )
+$maths.studRollNo$maths.studFirstName$maths.studLastName$maths.studDepartment$maths.studSchoolName$maths.studClassTeacher$maths.studCity
+#end
+##
+##--------------------Maths Footer----------------------------------
+$data.mathsDepartmentFooter.deptCurrentVacancy$data.mathsDepartmentFooter.deptYearlyBudget
+##
+##
+##
+##
+##
+##
+##--------------------Science Header----------------------------------
+$data.scienceDepartmentHeader.deptName$data.scienceDepartmentHeader.deptHOD$data.scienceDepartmentHeader.deptFacultyCount$data.scienceDepartmentHeader.deptStartedYear
+##
+##--------------------List of all Science Student---------------------
+#foreach( $sci in $data.lsOfScienceStudent )
+$sci.studRollNo$sci.studFirstName$sci.studLastName$sci.studDepartment$sci.studSchoolName$sci.studClassTeacher$sci.studCity
+#end
+##
+##--------------------Science Footer----------------------------------
+$data.scienceDepartmentFooter.deptCurrentVacancy$data.scienceDepartmentFooter.deptYearlyBudget
+##
+##
+##
+##
+##--------------------------File Footer-----------------------------
+$data.fileFooter.totalStudentCount$data.fileFooter.julianDate
+

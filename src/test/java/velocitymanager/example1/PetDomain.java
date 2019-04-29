@@ -1,4 +1,4 @@
-package velocitymanager;
+package velocitymanager.example1;
 
 public class PetDomain {
 

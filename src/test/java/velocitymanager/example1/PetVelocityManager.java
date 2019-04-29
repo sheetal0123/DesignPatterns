@@ -1,4 +1,4 @@
-package velocitymanager;
+package velocitymanager.example1;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -26,7 +26,7 @@ public class PetVelocityManager {
 		
         
         // Get the Template
-        String path = "\\src\\test\\java\\velocitymanager\\pettemplate2.vm";
+        String path = "\\src\\test\\java\\velocitymanager\\example1\\pettemplate2.vm";
         Template template = ve.getTemplate(path);
         
         

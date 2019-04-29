@@ -1,4 +1,4 @@
-package velocitymanager;
+package velocitymanager.example1;
 
 import java.io.StringWriter;
 import org.apache.velocity.app.VelocityEngine;
