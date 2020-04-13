@@ -4,7 +4,7 @@ package singletonpattern;
  * Double checked locking approach in Singleton
  * 
  * pros:
- * - reduce the use of synchronized in getInstance()
+ * - reduce the use of synchronized in getobj()
  * - handle multi threading in effective way
  * - synchronized code will be called only once
  * - increased performance
@@ -16,25 +16,25 @@ package singletonpattern;
  */
 public class Singleton3 {
 
-	private volatile static Singleton3 instance;
+	private volatile static Singleton3 obj;
 
 	private Singleton3() {
 	}
 
 	public static Singleton3 getInstance() {
 
-		if (instance == null) {
+		if (obj == null) {
 
 			synchronized (Singleton3.class) {
 
-				if (instance == null) {
-					instance = new Singleton3();
+				if (obj == null) {
+					obj = new Singleton3();
 				}
 
 			}
 		}
 
-		return instance;
+		return obj;
 	}
 
 }
