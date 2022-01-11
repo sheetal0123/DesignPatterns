@@ -2,6 +2,7 @@ package decoratorpattern_updated;
 
 
 /**
+ * This is Parent abstract class
  * Here we have introduced a new feature
  * 
  * Coffee cost will remain same for small, medium and large
@@ -12,7 +13,7 @@ public abstract class CoffeeWithSize {
 	
 	//enum of size
 	public enum Size {LARGE, MEDIUM, SMALL}
-	Size size= Size.LARGE;
+	Size size= Size.LARGE; //Default Size, incase no size given
 	
 	
 	//old code

@@ -1,6 +1,6 @@
 package factorypattern3;
 
-import aaaTest.FactoryCar.CarType;
+import factorypattern3.FactoryCar.CarType;
 
 public class TestCars {
 
